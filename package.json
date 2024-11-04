@@ -4,11 +4,12 @@
   "description": "Wallet connect extension for cosmos-kit",
   "main": "index.js",
   "dependencies": {
-    "@near-wallet-selector/core": "8.9.8",
+    "@near-wallet-selector/core": "^8.9.14",
+    "@near-wallet-selector/wallet-utils": "^8.9.14",
     "@walletconnect/modal": "^2.7.0",
     "@walletconnect/sign-client": "^2.13.0",
     "@walletconnect/types": "^2.17.1",
-    "near-api-js": "^2.1.4"
+    "near-api-js": "4.0.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
