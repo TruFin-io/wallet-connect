@@ -1,8 +1,8 @@
-import type { KeyPair, providers } from "near-api-js";
+import  { KeyPair, providers } from "near-api-js";
 import * as nearAPI from "near-api-js";
-import type { AccessKeyViewRaw } from "near-api-js/lib/providers/provider";
-import type { SignClientTypes, SessionTypes } from "@walletconnect/types";
-import type {
+import { AccessKeyViewRaw } from "near-api-js/lib/providers/provider";
+import { SignClientTypes, SessionTypes } from "@walletconnect/types";
+import {
   WalletModuleFactory,
   WalletBehaviourFactory,
   BridgeWallet,

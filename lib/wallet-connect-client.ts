@@ -1,11 +1,11 @@
 import Client from "@walletconnect/sign-client";
-import type { SignClientTypes, EngineTypes } from "@walletconnect/types";
+import { SignClientTypes, EngineTypes } from "@walletconnect/types";
 // eslint-disable-next-line @typescript-eslint/consistent-type-imports
 let WalletConnectModal: typeof import("@walletconnect/modal").WalletConnectModal;
 import("@walletconnect/modal").then((module) => {
   WalletConnectModal = module.WalletConnectModal;
 });
-import type { EventEmitterService, WalletEvents } from "@near-wallet-selector/core";
+import { EventEmitterService, WalletEvents } from "@near-wallet-selector/core";
 
 class WalletConnectClient {
   private client!: Client;
