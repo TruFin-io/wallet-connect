@@ -1,0 +1,21 @@
+{
+  "name": "wallet-connect-cosmos-kit-extensions",
+  "version": "1.0.0",
+  "description": "Wallet connect extension for cosmos-kit",
+  "main": "index.js",
+  "dependencies": {
+    "@near-wallet-selector/core": "^0.4.0",
+    "@walletconnect/modal": "^1.0.0",
+    "@walletconnect/sign-client": "^1.0.0",
+    "@walletconnect/types": "^1.0.0",
+    "near-api-js": "^0.43.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^4.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
