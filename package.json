@@ -1,6 +1,6 @@
 {
   "name": "wallet-connect-cosmos-kit-extensions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wallet connect extension for cosmos-kit",
   "main": "index.js",
   "dependencies": {
